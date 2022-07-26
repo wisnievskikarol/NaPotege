@@ -1,0 +1,23 @@
+.hero-text-container {
+  display: flex;
+  height: 100%;
+  align-items: center;
+
+  .hero-text-container-div {
+    display: flex;
+    flex-direction: column;
+    h1 {
+      font-family: "Poppins", sans-serif;
+      font-weight: 400;
+      font-size: 53px;
+      margin: 0;
+      //line-height: 80px;
+    }
+    h1:last-child {
+      font-weight: 600;
+    }
+  }
+}
+.hero-img {
+  width: 100%;
+}

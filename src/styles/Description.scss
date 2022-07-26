@@ -1,0 +1,14 @@
+.description-img {
+  width: 100%;
+}
+.description-title {
+  margin: 20px 0;
+  display: flex;
+  gap: 8px;
+  h2:first-child {
+    font-weight: 200;
+  }
+}
+.description-list {
+  padding: 0;
+}

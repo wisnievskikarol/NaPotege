@@ -6,7 +6,7 @@ import Exit from "../assets/exit.svg";
 const Nav = () => {
   return (
     <nav className="nav">
-      <Container className="XD" maxWidth="xl">
+      <Container maxWidth="xl">
         <input type="checkbox" id="nav__checkbox" className="nav__checkbox" />
         <label htmlFor="nav__checkbox" className="nav__toggle">
           <img src={Hamburger} className="hamburger" />

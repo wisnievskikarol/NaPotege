@@ -1,0 +1,11 @@
+.card-container {
+  border: 0.9px solid #cacaca;
+  border-radius: 10px;
+  width: calc(100% - 50px - 1.8px);
+  min-height: 225px;
+  padding: 25px;
+  img {
+    //width: 64px;
+    height: 64px;
+  }
+}
