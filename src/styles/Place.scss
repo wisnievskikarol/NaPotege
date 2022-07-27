@@ -7,6 +7,30 @@
   letter-spacing: 0.155em;
   color: #ffaa00;
 }
+
 .place-img {
   width: 100%;
+  //max-width: 100%;
+  height: auto;
+  max-height: 600px;
+  object-fit: cover;
+  object-position: center;
+}
+.place-text {
+  h3 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 58px;
+    color: #000000;
+  }
+  p {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #000000;
+  }
 }

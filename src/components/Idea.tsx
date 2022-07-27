@@ -6,14 +6,13 @@ import LightBulb from "../assets/light_bulb.png";
 import Knowledge from "../assets/knovelage-icon.svg";
 import People from "../assets/people-icon.svg";
 import Grid from "@mui/material/Grid";
+import Segments from "./Segments";
 const Idea = () => {
   return (
     <Container maxWidth="xl">
       <h2 className="idea-title">Nasza Idea</h2>
-      <Description />
-
       <div className="idea-cards">
-        <Grid container spacing={2}>
+        <Grid container spacing={6}>
           <Grid item xs={12} md={4}>
             <Card
               icon={LightBulb}
@@ -27,7 +26,7 @@ const Idea = () => {
           <Grid item xs={12} md={4}>
             <Card
               icon={Knowledge}
-              title={"Wiedza praktyczna"}
+              title={"Praktyczna wiedza"}
               description={
                 "Wesprzemy Cię w pokonaniu przeszkód i trudności na drodze do realizacji swoich planów biznesowych.\n" +
                 "Damy Ci narzedzia i zainicjujemy różnego rodzaju procesy, z którymi zwklekasz."
@@ -37,7 +36,7 @@ const Idea = () => {
           <Grid item xs={12} md={4}>
             <Card
               icon={People}
-              title={"Istotne kontakty "}
+              title={"Istotne kontakty"}
               description={
                 "To z kim spędzamy czas toruje nasze myślenie. Dobór uczestników danego spotkania ma na celu\n" +
                 "połączenie ich potrzeb, to również gwarancja świetnej atmosfery."
@@ -46,6 +45,10 @@ const Idea = () => {
           </Grid>
         </Grid>
       </div>
+
+      <Description />
+
+      <Segments />
     </Container>
   );
 };

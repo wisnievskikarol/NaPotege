@@ -4,6 +4,7 @@ import Hero from "./components/Hero";
 import Idea from "./components/Idea";
 import "./App.scss";
 import Place from "./components/Place";
+import JoinEvent from "./components/JoinEvent";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Hero />
         <Idea />
         <Place />
+        <JoinEvent />
       </div>
     </>
   );

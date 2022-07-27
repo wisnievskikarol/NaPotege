@@ -6,6 +6,12 @@
 @import "./styles/Card";
 @import "./styles/Idea";
 @import "./styles/Place";
+@import "./styles/Footer";
+@import "./styles/JoinEvent";
+@import "./styles/Segments";
+@import "./styles/SpeakerCard";
+@import "./styles/Meetings";
+
 body {
   margin: 0;
   padding: 0;
@@ -14,4 +20,7 @@ body {
 }
 li {
   list-style: none;
+}
+html {
+  scroll-behavior: smooth;
 }

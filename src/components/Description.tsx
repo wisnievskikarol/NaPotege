@@ -15,7 +15,7 @@ const Description = () => {
         <Grid item md={4}>
           <img className="description-img" src={Photo} />
         </Grid>
-        <Grid item md={6}>
+        <Grid className={"description-text"} item md={6}>
           <div>
             <h3>Inicjatywa biznesowa dla tych, którzy</h3>
             <ul className="description-list">
